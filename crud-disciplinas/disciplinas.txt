@@ -1,0 +1,2 @@
+Algebra Linear;ALG;50
+Segurança da Informação;SEG;80
