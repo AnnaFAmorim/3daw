@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Perguntas</title>
+</head>
+<body>
+    <main>
+    
+    <form action="alterar.php" method="POST">
+
+        <label for="pergAlterar">Qual pergunta dseja alterar?: </label>
+        <input type="text" name="pergAlterar" id="pergAlterar">
+        <br><br>
+        <label for="novaPerg">Digite a nova pergunta: </label>
+        <input type="text" name="pergunta" id="pergunta">
+        <br><br>
+
+        <label for="respostaCerta">Qual é a resposta ?: </label>
+            <input type="text" name="resposta" id="resposta" required>
+            <br><br>
+            <label for="alternativa2">Opção 1: </label>
+            <input type="text" name="op1" id="op1" required>
+            <br><br>
+            <label for="alternativa2">Opção 2: </label>
+            <input type="text" name="op2" id="op2" required>
+            <br><br>
+            <label for="alternativa3">Opção 3: </label>
+            <input type="text" name="op3" id="op3" required>
+            <br><br>
+            <label for="alternativa4">Opção 4: </label>
+            <input type="text" name="op4" id="op4" required>
+            <br><br>
+        <input type="submit" value="Alterar Pergunta">
+        <p><a href="./menu.html">Voltar</a></p>
+
+    </form>
+</body>
+</html>
+
+
+
+
+

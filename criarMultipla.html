@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadastro de Perguntas</title>
+</head>
+<body>
+    <main>
+        <h3>Adicione novas perguntas:</h3>
+        <form action="/criarMultipla.php" method="POST">
+            <label for="pergunta">Pergunta: </label><br>
+            <input type="text" name="pergunta" id="pergunta" required><br><br>
+
+            <label for="resposta">Resposta Certa: </label><br>
+            <input type="text" name="resposta" id="resposta" required><br><br>
+
+            <label for="op1">Opção 1: </label><br>
+            <input type="text" name="op1" id="op1" required><br><br>
+
+            <label for="op2">Opção 2: </label><br>
+            <input type="text" name="op2" id="op2" required><br><br>
+
+            <label for="op3">Opção 3: </label><br>
+            <input type="text" name="op3" id="op3" required><br><br>
+
+            <label for="op4">Opção 4: </label><br>
+            <input type="text" name="op4" id="op4" required><br><br>
+
+            <input type="submit" value="Cadastrar Pergunta">
+        </form>
+        <p>Voltar <a href="./cadastro.html">Clique aqui</a></p>
+    </main>
+</body>
+</html>
