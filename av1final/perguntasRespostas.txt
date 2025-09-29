@@ -1,0 +1,4 @@
+tipo;pergunta;resposta;op1;op2;op3;op4
+texto;Quanto é 2 + 2?;4;;;;
+texto;Qual é a estação mais quente?;verão;;;;
+multipla;Quanto é 2 + 2?;4;1;2;3;4
